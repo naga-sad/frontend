@@ -41,7 +41,7 @@ export default function LoginComponent() {
     var response;
     try {
       response = await axios.post(
-        "http://localhost:3001/app/login",
+        "http://54.157.39.172:3001/app/login",
         requestData
       );
       switch (response.status) {
