@@ -1,0 +1,23 @@
+header.hero {
+    height: 350px;
+    background-color: #04381ad9;
+    background-image: url('../../assets/nbad3.jpg');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 40px;
+  }
+  
+  header.hero h1,
+  header.hero h2 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  header.hero h1 {
+    color: #fff;
+    font-size: 4.2em;
+    margin-bottom: 20px;
+  }
+  
+ 
