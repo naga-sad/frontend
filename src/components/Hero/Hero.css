@@ -1,6 +1,6 @@
 header.hero {
     height: 350px;
-    background-color: #04381ad9;
+    background-color: white;
     background-image: url('../../assets/nbad3.jpg');
     background-size: 400px;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ header.hero {
   }
   
   header.hero h1 {
-    color: #fff;
+    color: #424846;
     font-size: 4.2em;
     margin-bottom: 20px;
   }

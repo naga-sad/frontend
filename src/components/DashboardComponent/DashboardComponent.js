@@ -38,7 +38,7 @@ class DashboardComponent extends Component {
     componentDidMount() {
         const token = localStorage.getItem('token');
         axios
-            .get('http://54.157.39.172:3001/app/userBudget', {
+            .get('http://3.83.175.91:3001/app/userBudget', {
                 headers: {
                     Authorization: 'Bearer ' + token,
                     'Content-Type': 'application/json',
@@ -78,7 +78,7 @@ class DashboardComponent extends Component {
             });
 
         axios
-            .get('http://54.157.39.172:3001/app/userMonthlyBudget', {
+            .get('http://3.83.175.91:3001/app/userMonthlyBudget', {
                 headers: {
                     Authorization: 'Bearer ' + token,
                     'Content-Type': 'application/json',
@@ -162,30 +162,7 @@ class DashboardComponent extends Component {
             <main className="center" id="main">
                 <AppBarComponent />
                 <div className="page-area">
-                    <article>
-                        <h1>Stay on track</h1>
-                        <p>
-                            Do you know where you are spending your money? If you really stop to track it down,
-                            you would get surprised! Proper budget management depends on real data... and this
-                            app will help you with that!
-                        </p>
-                    </article>
-
-                    <article>
-                        <h1>Alerts</h1>
-                        <p>
-                            What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
-                        </p>
-                    </article>
-
-                    <article>
-                        <h1>Results</h1>
-                        <p>
-                            People who stick to a financial plan, budgeting every expense, get out of debt faster!
-                            Also, they to live happier lives... since they expend without guilt or fear...
-                            because they know it is all good and accounted for.
-                        </p>
-                    </article>
+                    
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                     {

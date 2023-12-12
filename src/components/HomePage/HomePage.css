@@ -1,9 +1,9 @@
 #loginsignup-btn{
-    color:green;
-    border-color: green;
+    color:rgb(96, 96, 96);
+    border-color: rgb(184, 184, 184);
 }
 
 #loginsignup-btn:hover{
     color:yellowgreen;
-    background-color: green;
+    background-color: rgb(143, 150, 149);
 }

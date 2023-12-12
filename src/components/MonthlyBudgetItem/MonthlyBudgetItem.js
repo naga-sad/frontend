@@ -6,7 +6,7 @@ import { Popper as BasePopper } from '@mui/base/Popper';
 import { styled } from '@mui/system';
 import UnfoldMoreRoundedIcon from '@mui/icons-material/UnfoldMoreRounded';
 
-const MonthlymyBudgetItem = ({ budget, onEdit, onDelete }) => {
+const MonthlyBudgetItem = ({ budget, onEdit, onDelete }) => {
   return (
     <tr>
       <td>{budget.item}</td>
@@ -19,4 +19,4 @@ const MonthlymyBudgetItem = ({ budget, onEdit, onDelete }) => {
   );
 };
 
-export default MonthlymyBudgetItem;
+export default MonthlyBudgetItem;
